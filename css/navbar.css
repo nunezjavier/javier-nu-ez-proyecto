@@ -1,0 +1,50 @@
+.navbar{
+    background-color: #a10707;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+}
+
+.navbar .logo{
+    width: 150px;
+    height: 90px;
+    grid-column: 1/3;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.navbar .menu{
+    grid-column: 3/8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-bar{
+    display: none;
+}
+
+.menu-bar-ul ul{
+    display: none;
+}
+
+.navbar .login{
+    grid-column: 10/11;
+    cursor: pointer;
+}
+
+
+.logo-responsive{
+    display: none;
+    
+}
+
+.navbar-responsive{
+    display: none;
+    grid-template-columns: repeat(10,1fr);
+    background-color: #a10707;
+    width: 100%;
+}

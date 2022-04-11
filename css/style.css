@@ -1,0 +1,205 @@
+
+h1{
+    display: flex;
+    text-align: center; font-size: 80px; 
+    text-shadow: black;  
+    margin: 0px; 
+    padding: 0px; 
+    display: inline;}
+
+img{
+    border: 2px solid #a10707;
+}
+
+a{
+    text-decoration: none;
+}
+
+iframe{
+    border: 2px solid #a10707;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.flex-container__sn{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+}
+
+.flex-item{
+    width: 100%;
+    height: 90%;
+}
+
+.principal-news img{
+    width: 100%;
+    height: 400px;
+}
+
+.principal-news{
+    text-align: center;
+}
+
+
+.principal-news h2{
+    display: block;
+    margin: auto;
+}
+
+.noticias-secundarias img{
+    width: 400px;
+}
+
+.noticias-secundarias h2{
+    font-size: 30px;
+}
+
+.borderC{
+    background-color: #ffffff;
+}
+
+.borderC img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.borderC h2{
+    display: block;
+    text-align: center;
+}
+
+
+.logo{
+    margin: 0%;
+    padding: 0%;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;}
+
+button{ 
+    font-family: 'Courier New', Courier, monospace; 
+    color: #ffffff ;
+    background-color: black; 
+    border: none;}
+
+.fuenteTitulos{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.fuenteTitulos-1{
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+
+.carteleraTitulos{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0%;
+    margin-bottom: 60px;
+}
+
+
+
+.gridCartelera{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #a10707;
+    width: 100%;
+    
+
+}
+
+*{
+    color: #000000;
+    margin: 7px;
+}
+
+li{
+    display:inline}
+
+h3{ 
+    font-size: 30px;}
+
+
+h2{
+    font-size: 40px;}
+
+.sizetrailer{
+    font-size:25px; 
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 9px;
+    padding-top: 4px;
+}
+
+.sizetrailer-principal{
+    font-size:50px; 
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 9px;
+    padding-top: 4px;
+}
+
+label{
+    display: block; 
+    font-family: 'Bebas Neue', cursive;}
+
+.formbuttons{ 
+    background-color: black;}
+
+
+input{
+    color: black; 
+    font-family: 'Times New Roman', Times, serif;}
+
+
+.second-trailers{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.footer{
+    background-color: #a5a5a5;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footer-responsive{
+    display: none;
+    color: #ffffff;
+    background-color: rgb(190, 190, 190);
+}
+
+.footer h4{
+    font-family:'Bebas Neue', cursive;
+}
+
+.footer-responsive h4{
+    font-size: 10px;
+    font-family:'Bebas Neue', cursive; 
+}
+
+
+
+
+
+
+
+
+
+
+

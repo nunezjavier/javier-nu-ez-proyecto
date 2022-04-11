@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINENEXT | CONTACTACTANOS</title>
+    <link rel="shortcut icon" href="../assets/logos/cinenext_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+<!--fuente titulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<!--css plus-->
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+<!--iconos-->
+    <script src="https://kit.fontawesome.com/571e892033.js" crossorigin="anonymous"></script>
+</head>
+<body class="contactColor">
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="../assets/logos/cinenext-navbar.png" alt="CINENEXT">
+                <ul class="menu">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="../pages/cartelera.html">cartelera</a></li>
+                <li><a href="../pages/resenas.html">reseñas</a></li>
+                <li><a href="../pages/trailers.html">trailers</a></li>
+                <li><a href="">registrarse</a></li>
+            </ul>
+            <div class="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="login">
+                <button>LOGIN</button>
+            </div>
+        </nav>
+<!--MENU RESPONSIVE-->
+        <nav class="navbar-responsive">
+            <img class="logo-responsive" src="../assets/logos/cinenext-navbar.png" alt="CINENEXTs">
+            <div class="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <form action="procesar.php" method="post">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" placeholder="ingresa tu nombre">
+
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido" placeholder="ingresa tu apellido">
+
+        <label for="Correo">Correo:</label>
+        <input type="email" name="Correo" placeholder="ingresa tu correo" required>
+
+        <label for="Pass">Contraseña:</label>
+        <input type="password" name="contraseña" placeholder="contraseña" required>
+
+        <label for="checkbox">Acepto los terminos y condiciones.</label>
+        <input type="checkbox" required>
+
+        <label for="submit"></label>
+        <input class="bordesRedondeados" type="submit" name="ENVIAR">
+
+        <label for="reset"></label>
+        <input class="bordesRedondeados" type="reset">
+    </form>
+    <footer class="footer">
+        <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <h4>Desarrollador Javier Nuñez.</h4>
+    </footer>
+    <footer class="footer-responsive">
+        <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <h4>Desarrollador Javier Nuñez.</h4>
+    </footer>
+</body>
+
+</html>
